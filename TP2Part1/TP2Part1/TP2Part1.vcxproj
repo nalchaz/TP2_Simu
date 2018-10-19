@@ -110,6 +110,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\ConsoleApplication1\ConsoleApplication1\code.cpp" />
+    <ClCompile Include="..\..\..\ConsoleApplication1\ConsoleApplication1\TPiece.cpp" />
+    <ClCompile Include="..\..\..\ConsoleApplication1\ConsoleApplication1\TFile.cpp" />
+    <ClCompile Include="..\..\..\ConsoleApplication1\ConsoleApplication1\TServeur.cpp" />
+    <ClCompile Include="..\..\..\ConsoleApplication1\ConsoleApplication1\TSortie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ConsoleApplication1\ConsoleApplication1\code.h" />
+    <ClInclude Include="..\..\..\ConsoleApplication1\ConsoleApplication1\TPiece.h" />
+    <ClInclude Include="..\..\..\ConsoleApplication1\ConsoleApplication1\TFile.h" />
+    <ClInclude Include="..\..\..\ConsoleApplication1\ConsoleApplication1\TServeur.h" />
+    <ClInclude Include="..\..\..\ConsoleApplication1\ConsoleApplication1\TSortie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
